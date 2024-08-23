@@ -18,8 +18,8 @@ function App() {
     let count = e.target.value
     let array = []
     for (let index = 0; index < count; index++) {
-      array.push(<tr contenteditable={editMode} className='editable-table'>
-        <td></td>
+      array.push(<tr contenteditable={editMode} className='editable-table' spellcheck="false">
+        <td> </td>
         <td> </td>
         <td> </td>
         <td> </td>
@@ -122,13 +122,19 @@ function App() {
             <td>Issue</td>
             <td>Balance</td>
           </tr>
-          <tr  contenteditable={editMode}>
+
+        </table>
+        <table>
+          <tr contenteditable={editMode}>
             <td className='tablate-name' style={{ borderRight: "none" }} >
               <b>
                 SARTEL-40MG TAB., 15'S
               </b>
             </td>
           </tr>
+          </table>
+          <table>
+            
           <tr className='red-table' contenteditable={editMode}>
             <td>20-20-24</td>
             <td> Opening Blance</td>
@@ -151,7 +157,7 @@ function App() {
 
 
 
-      </div> 
+      </div>
 
     </div>
   );

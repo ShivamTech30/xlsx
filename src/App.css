@@ -114,6 +114,7 @@ background-color: rgb(244, 241, 241);
     border-collapse: collapse;
     border: 1px solid gray;
     width: 100%;
+
   }
 
   td {
@@ -137,6 +138,16 @@ background-color: rgb(244, 241, 241);
 .red-table {
   color: blue;
   background-color: red;
+
+  
+}
+
+.editable-table{
+
+  td{
+    color: rgb(59, 56, 56);
+      }
+
 }
 
 

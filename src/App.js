@@ -113,7 +113,7 @@ function App() {
       <div className='table-first'>
         <table>
           <tr>
-            <td>Date</td>
+            <td style={{width:"52px"}}>Date</td>
             <td>Party</td>
             <td>Bill#/Vou#</td>
             <td>Batch</td>
@@ -134,7 +134,7 @@ function App() {
           </tr>
           </table>
           <table>
-            
+
           <tr className='red-table' contenteditable={editMode}>
             <td>20-20-24</td>
             <td> Opening Blance</td>
